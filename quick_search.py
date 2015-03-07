@@ -24,6 +24,6 @@ class quick_search():
 
 if __name__ == '__main__':
     queries = sys.argv[1:]
-    google = quick_search(queries, 'yahoo')
+    google = quick_search(queries)
 
     google.search()
